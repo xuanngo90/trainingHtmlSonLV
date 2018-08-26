@@ -1,0 +1,117 @@
+/* common style */
+
+body {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.hasBorderBot {
+    border-bottom: 1px solid #82afb5;
+}
+
+.hasBorder {
+    border: 1px solid #82afb5;
+}
+
+.borderColor1 {
+    border-color: #666;
+}
+
+.color1 {
+    color: #600;
+}
+
+.color2 {
+    color: #666;
+}
+
+
+/* custom style */
+
+.bgcolor1 {
+    background-color: #96b7be;
+}
+
+.bgcolor2 {
+    background-color: #cbdde1;
+}
+
+.bgcolor3 {
+    background-color: #fff;
+}
+
+.bgcolor4 {
+    background-color: #054451;
+}
+
+.wrapper,
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+/* Table */
+
+.table {
+    display: table;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableColumn {
+    display: table-column
+}
+
+.tableCell {
+    display: table-cell;
+}
+
+.middle .tableCell {
+    vertical-align: middle
+}
