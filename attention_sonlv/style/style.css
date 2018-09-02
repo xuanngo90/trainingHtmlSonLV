@@ -49,6 +49,11 @@
     margin: 0px 32px 0px 32px;
 }
 
+.header_bot ul li a:hover  {
+    text-decoration: underline;
+    color:#255a84
+}
+
 .header_bot ul li:first-child{
     margin-left: 0px;
 }
@@ -221,6 +226,10 @@
 
 .info ul li{
     padding-bottom: 4px;
+}
+
+.info ul li:last-child{
+    padding-bottom: 0px;
 }
 
 .info ul li a{
