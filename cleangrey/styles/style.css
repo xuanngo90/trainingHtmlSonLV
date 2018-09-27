@@ -1,48 +1,99 @@
 /* header */
-.logo{
-    padding:34px 0px 31px 0px;
+/* top */
+.header_top{
+    padding:11px 0px 9px 0px;
 }
 
-.logo strong{
-    display: block;
-    font-size:42px; 
-    color:#e4dfc8;
-}
-
-.logo small{
-    color:#dadada;
-}
-
-.nav_search{
-    max-width: 578px;
-    width: 100%;
-    padding:20px 0px 31px 0px;
+.btn{
+    width: 25px;
+    height: 25px;
+    float:left;
+    margin:0 10px;
 }
 
 .search_form{
-    display: block;
-    text-align: right;
-    padding-bottom: 31px;
+    max-width: 290px;
+    width: 100%;
 }
 
 .search_form button{
     border:1px solid #fff;
-    max-width: 80px;
+    max-width: 36px;
     width: 100%;
-    padding:7px 5px;
-    color: #fff;
+    padding:7px 8px;
+    color: #d4d4d4;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 14px;
 }
 
-/* 80px : witdh of button
-   10px : margin
-   215px : margin-left of form
+/* 36px : witdh of button
+   5px : margin-left
 */
 .search_form input{
-    width: calc(100% - 215px - 10px - 80px);
-    margin-right: 10px;
-    padding:5px 0px 5px 6px;
+    width: calc(100% - 44px);
+    margin-right: 4px;
+    padding:7px 0px 7px 6px;
+}
+
+/* Chrome, Opera, Safari */
+::-webkit-input-placeholder {
+    color: #d4d4d4;
+  }
+  
+  /* Firefox 19+ */
+  ::-moz-placeholder {
+    color: #d4d4d4;
+  }
+  
+  /* IE 10+ */
+  :-ms-input-placeholder {
+    color: #d4d4d4;
+  }
+  
+  /* Firefox 18- */
+  :-moz-placeholder {
+    color: #d4d4d4;
+  }
+/* bot */
+.header_bot{
+    padding:15px 0px;
+   
+}
+
+.text_logo{
+    padding:6px 0px 4px 0px;
+
+}
+
+.text_logo strong{
+    display: block;
+    font-size:36px; 
+}
+
+.nav_link ul li{
+    float:left;
+    padding:19px 15px 15px 15px;
+    margin:0px 7px 0px 8px;
+}
+
+.nav_link ul li:first-child{
+    margin-left:0px;
+}
+
+.nav_link ul li:last-child{
+    margin-right:0px;
+}
+
+.text_logo ul li a{
+    display: block;
+    font-size: 14px;
+    color:#666 !important;
+}
+/* .nav_search{
+    max-width: 578px;
+    width: 100%;
+    padding:20px 0px 31px 0px;
 }
 
 .nav_link{
@@ -53,7 +104,7 @@
 /* 248px = 62px X 4
    94px  = width of li:last-child
 */
-.nav_link li {
+/* .nav_link li {
     width: calc((100% - 248px - 94px) / 4);
     float: left;
     margin: 0px 31px;
@@ -75,7 +126,7 @@
 .nav_link li a:hover{
     color:#95a60a;
     text-decoration: underline;
-}
+} */ */
 
 /* banner */
 /* left */
