@@ -96,6 +96,11 @@
 }
 
 /* article */
+/* top */
+.ametorci_top{
+    margin-bottom: 30px;
+}
+
 .ametorci{
     max-width:590px;
     width: 100%;
@@ -140,6 +145,22 @@
     width: 80px;
     height: 80px;
 }
+
+/* bot */
+.ametorci_bot_content{
+    width: calc((100% - 30px) / 2);
+    float:left;
+    margin: 0px 15px;
+}
+
+.ametorci_bot_content:first-child{
+    margin-left: 0px;
+}
+
+.ametorci_bot_content:last-child{
+    margin-right: 0px;
+}
+
 
 /* footer */
 .footer_bot{
